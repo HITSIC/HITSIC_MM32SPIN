@@ -507,7 +507,7 @@ void* exFLASH_Locate(u32 pageAddress, u16 len)
 ////////////////////////////////////////////////////////////////////////////////
 void exFLASH_WriteEE(u16* buf, u32 pageAddress, u16 len)
 {
-    u16* ptr = exFLASH_Locate(pageAddress, len);
+    u16* ptr = (u16*)exFLASH_Locate(pageAddress, len);
     if (ptr == 0) {
         exFLASH_EraseEE(pageAddress + 0x000);
         exFLASH_EraseEE(pageAddress + 0x400);
@@ -540,7 +540,7 @@ void exFLASH_WriteEE(u16* buf, u32 pageAddress, u16 len)
 ////////////////////////////////////////////////////////////////////////////////
 void* exFLASH_ReadEE(u32 pageAddress, u16 len)
 {
-    u16* ptr = exFLASH_Locate(pageAddress, len);
+    u16* ptr = (u16*)exFLASH_Locate(pageAddress, len);
     return (ptr == 0) ? 0 : (ptr - len / 2);
 }
 
