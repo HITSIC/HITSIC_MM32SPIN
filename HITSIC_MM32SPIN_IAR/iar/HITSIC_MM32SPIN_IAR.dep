@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>927044405</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\drivers\HAL_uid.c</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_common_tables.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_const_structs.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_uart.c</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_helium_utils.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_math.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_mve_tables.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\arm_vec_math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_opamp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_uid.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_rtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_wwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_rcc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_iwdg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_pwr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_sqrt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_tim.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_adc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_nvic.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\board.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\HITSIC_MM32SPIN_IAR.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\HITSIC_MM32SPIN_IAR.pbd</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_gcc.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\tz_context.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_armv81mml.h</file>
+            <file>$PROJ_DIR$\..\device\mm32.h</file>
+            <file>$PROJ_DIR$\..\device\resource.c</file>
+            <file>$PROJ_DIR$\..\board\board.c</file>
+            <file>$PROJ_DIR$\..\board\board.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm35p.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_armcc.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm33.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_sc300.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cachel1_armv7.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm23.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm4.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_armclang_ltm.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm1.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_armv8mml.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_armv8mbl.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm55.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_armclang.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_sc000.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\mpu_armv8.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\core_cm3.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\pmu_armv8.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_sqrt.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_spi.c</file>
+            <file>$PROJ_DIR$\..\source\main.cpp</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_tim.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_exti.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_bkp.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_flash.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_iwdg.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_adc.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_dma.c</file>
+            <file>$PROJ_DIR$\..\device\system_mm32.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_can.c</file>
+            <file>$PROJ_DIR$\..\device\types.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_nvic.c</file>
+            <file>$PROJ_DIR$\..\device\vcdefine_v1.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_div.c</file>
+            <file>$PROJ_DIR$\..\device\resource.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_aes.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_crs.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_dbg.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_gpio.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_crc.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_dac.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_i2c.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_comp.c</file>
+            <file>$PROJ_DIR$\..\source\syscalls.c</file>
+            <file>$PROJ_DIR$\..\device\system_mm32.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_opamp.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_pwr.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_rcc.c</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_rtc.c</file>
+            <file>$PROJ_DIR$\..\startup\startup_mm32.c</file>
+            <file>$PROJ_DIR$\..\startup\startup_mm32.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mm32.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_aes.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_bkp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_crs.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dac.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_can.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_exti.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\resource.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_mm32.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_comp.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dbg.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\resource.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_div.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\syscalls.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_mm32.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_mm32.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\isr.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\syscalls.o</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_flash.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_iwdg.h</file>
+            <file>$PROJ_DIR$\..\source\isr.cpp</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_crc.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_crs.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_i2c.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_exti.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_sqrt.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_uart.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_uid.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_dma.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_nvic.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_wwdg.h</file>
+            <file>$PROJ_DIR$\..\drivers\HAL_wwdg.c</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_comp.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_dac.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_spi.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_div.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_pwr.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_rcc.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_tim.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_adc.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_aes.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_rtc.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_gpio.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_dbg.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_opamp.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_bkp.h</file>
+            <file>$PROJ_DIR$\..\drivers\inc\HAL_can.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_pwr.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_aes.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_can.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_exti.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_tim.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_sqrt.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_div.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_i2c.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_gpio.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_opamp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_flash.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dma.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_rcc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_rtc.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_spi.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_uid.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_wwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_crs.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_uart.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dac.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_bkp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_dbg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_iwdg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_comp.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_nvic.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL_crc.pbi</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_uid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 92 28 49 106 136 68 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 137 92 135 28 101 146 151 68 82 106 32 70 44 125 105 107 90 49 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\device\resource.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106 68 146 103 72 118 102 92 91 82 32 70 44 125 105 107 90 101 28 49 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\board\board.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_sqrt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 106 49 68 92 134 28 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 28 102 146 143 68 106 32 70 44 125 101 105 107 90 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\main.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68 92 106 102 105 107 90 101 28 32 49 44 53 125 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 101 102 105 32 49 107 28 92 106 68 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105 68 28 90 101 92 147 102 107 49 53 146 82 106 32 70 44 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106 102 49 28 92 133 68 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_bkp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 154 105 90 44 145 102 107 32 70 125 68 28 146 92 106 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44 68 106 32 70 125 127 92 102 28 101 105 107 90 49 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 107 49 68 101 105 90 32 128 28 92 106 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 108</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 92 102 146 148 68 106 32 70 44 125 101 105 107 90 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106 102 49 137 92 68 101 105 107 90 28 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\device\system_mm32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118 68 72 101 146 106 103 107 92 91 28 82 102 105 90 49 53 32 70 44 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 102 28 68 105 90 146 107 155 92 106 32 70 44 125 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_nvic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 101 68 105 90 32 49 107 138 28 92 106 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_div.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 107 68 49 101 105 90 32 144 28 92 106 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 118 102 28 106 149 103 105 90 91 146 107 32 70 44 125 68 101 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_crs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 92 68 131 82 106 146 28 101 105 32 70 44 125 107 90 49 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_dbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 106 49 152 92 28 68 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 53 68 49 146 102 28 151 154 101 105 90 92 82 106 32 70 44 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 106 49 28 92 130 68 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 102 28 68 105 90 146 107 142 92 106 32 70 44 125 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90 101 68 28 138 105 132 92 151 146 102 107 49 53 106 32 70 44 125 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_comp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 102 49 68 106 141 28 101 105 107 90 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\syscalls.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_opamp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 101 105 90 28 92 49 153 107 68 106 32 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92 68 102 28 146 101 105 145 106 32 70 44 125 107 90 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107 53 68 28 49 138 102 146 82 101 105 90 92 106 32 70 44 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 28 107 49 101 105 90 32 150 68 92 106 70 44 53 125</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\startup\startup_mm32.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32 92 44 68 88 106 70 125 28 101 102 105 107 90 49 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\isr.cpp</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 92 28 107 146 101 105 90 139 68 106 32 70 44 125 49 53 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_uid.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_uart.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\device\resource.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\board\board.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_sqrt.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_spi.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\source\main.cpp</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_tim.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_exti.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_bkp.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_flash.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_iwdg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_adc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_dma.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\device\system_mm32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_can.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_nvic.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_div.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_aes.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_crs.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_dbg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_gpio.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_crc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_dac.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_i2c.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_comp.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\source\syscalls.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_opamp.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_pwr.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_rcc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_rtc.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\startup\startup_mm32.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\source\isr.cpp</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\drivers\HAL_wwdg.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
