@@ -183,6 +183,7 @@ typedef __I uint32_t vuc32; /*!< Read Only */
 typedef __I uint16_t vuc16; /*!< Read Only */
 typedef __I uint8_t vuc8;   /*!< Read Only */
 
+/** modified by C.M. */
 //typedef enum
 //{
 //    FALSE = 0,
@@ -191,6 +192,7 @@ typedef __I uint8_t vuc8;   /*!< Read Only */
 
 #define TRUE  true
 #define FALSE false
+/** ! modified by C.M. */
 
 typedef enum
 {

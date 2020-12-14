@@ -19,8 +19,17 @@
 */
 #ifndef __SYSTEM_MM32SPIN2xx_p_H__
 #define __SYSTEM_MM32SPIN2xx_p_H__
+
+#ifdef __cplusplus
+extern "C"{
+#endif
+
 extern uint32_t SystemCoreClock;
 void SystemInit (void);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
 /**
@@ -34,5 +43,6 @@ void SystemInit (void);
 /**
 * @}
 */
+
 
 /*-------------------------(C) COPYRIGHT 2019 MindMotion ----------------------*/

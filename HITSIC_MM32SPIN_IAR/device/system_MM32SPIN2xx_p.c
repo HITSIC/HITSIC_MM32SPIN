@@ -138,6 +138,10 @@ static void SystemInit_ExtMemCtl(void);
 * @}
 */
 
+#ifdef __cplusplus
+extern "C"{
+#endif
+  
 /**
 * @brief  Setup the microcontroller system
 *         Initialize the Embedded Flash Interface, the PLL and update the
@@ -837,5 +841,10 @@ void SetSysClockToXX_HSI(void)
 /**
 * @}
 */
+
+#ifdef __cplusplus
+}
+#endif
+
 /*-------------------------(C) COPYRIGHT 2019 MindMotion ----------------------*/
 
