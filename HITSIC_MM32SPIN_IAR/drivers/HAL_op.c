@@ -1,10 +1,10 @@
 /**
 ******************************************************************************
-* @file     HAL_div.c
+* @file     HAL_op.c
 * @author   AE team
 * @version  V1.1.0
 * @date     09/09/2019
-* @brief    This file provides all the DIV firmware functions.
+* @brief    This file provides all the OP firmware functions.
 ******************************************************************************
 * @copy
 *
@@ -19,18 +19,18 @@
 */
 
 /* Includes ------------------------------------------------------------------*/
-#include "HAL_div.h"
+#include "HAL_op.h"
 
 /** @addtogroup StdPeriph_Driver
 * @{
 */
 
-/** @defgroup DIV
-* @brief DIV driver modules
+/** @defgroup OP
+* @brief OP driver modules
 * @{
 */
 
-/** @defgroup DIV_Private_TypesDefinitions
+/** @defgroup OP_Private_TypesDefinitions
 * @{
 */
 
@@ -38,45 +38,22 @@
 * @}
 */
 
-/** @defgroup DIV_Private_Defines
+/** @defgroup OP_Private_Defines
 * @{
 */
 
-void HWDivider_UnsignInit(void)
-{
-    HWDIV->DIVCON |= (DIV_UNSIGN | DIV_IRQ_ENABLE);
-}
 
 /*******************************************************************************
-* @name   : HWDivider_Calc
-* @brief  : Calculate HWDIV
-* @param  : DVD, DVS
-* @retval : HWDIV->QUOT
+* @name   : OPAMP_Configure
+* @brief  : Enable or Disable OPAMP
+* @param  : Opx: the selected OPAMP.
+            This parameter can be OPx where x can be 1 to 4
+* @retval : void
 *******************************************************************************/
-u32 HWDivider_Calc(u32 DVD, u32 DVS)
+void OPAMP_Configure(emOPAMP_OutEn Opx, FunctionalState state)
 {
-    HWDIV->DVD = DVD;
-    HWDIV->DVS = DVS;
-
-    //overflow
-    if (HWDIV->STATUS & DIV_OVERFLOW)
-    {
-        return 0xffffffff;
-    }
-    return HWDIV->QUOT;
+    (state != DISABLE) ? (OPAMP->CSR |= Opx) : (OPAMP->CSR &= ~Opx);
 }
-
-/*******************************************************************************
-* @name   : Divider_Calc
-* @brief  : Calculate Divider
-* @param  : DVD, DVS
-* @retval : DVD/DVS
-*******************************************************************************/
-u32 Divider_Calc(u32 DVD, u32 DVS)
-{
-    return DVD / DVS;
-}
-
 /**
 * @}
 */
@@ -90,4 +67,3 @@ u32 Divider_Calc(u32 DVD, u32 DVS)
 */
 
 /*-------------------------(C) COPYRIGHT 2019 MindMotion ----------------------*/
-

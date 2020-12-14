@@ -1,5 +1,5 @@
-#include "types.h"
-#include "mm32.h"
+
+#include "MM32SPIN2xx_p.h"
 
 
 int main(void)

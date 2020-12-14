@@ -2483,448 +2483,139 @@
     <group>
         <name>device</name>
         <file>
-            <name>$PROJ_DIR$\..\device\mm32.h</name>
+            <name>$PROJ_DIR$\..\device\HAL_device.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\device\resource.c</name>
+            <name>$PROJ_DIR$\..\device\MM32SPIN2xx_p.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\device\resource.h</name>
+            <name>$PROJ_DIR$\..\device\system_MM32SPIN2xx_p.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\device\system_mm32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\device\system_mm32.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\device\types.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\device\vcdefine_v1.h</name>
+            <name>$PROJ_DIR$\..\device\system_MM32SPIN2xx_p.h</name>
         </file>
     </group>
     <group>
         <name>drivers</name>
         <file>
-            <name>$PROJ_DIR$\..\drivers\bsp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_adc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_adc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_can.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_can.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_comp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_comp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_crs.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_crs.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_dac.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_dac.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_i2c.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_i2c.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_key.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_key.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_led.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_led.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_mco.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_mco.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_opamp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_opamp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_spi.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_spi.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_tim.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_tim.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\bsp_uart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\bsp_uart.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\common.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\common.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_adc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_adc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_aes.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_aes.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_bkp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_bkp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_can.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_can.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_comp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_comp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_crc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_crc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_crs.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_crs.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_dac.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_dac.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_display.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_display.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_div.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_div.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_dma.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_dma.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_eeprom.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_eeprom.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_exti.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_exti.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_gpio.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_gpio.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_i2c.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_i2c.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_iwdg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_iwdg.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_keyboard.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_keyboard.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_mco.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_mco.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_opamp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_opamp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_power.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_power.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_protect.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_protect.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_rtc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_rtc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_spi.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_spi.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_sqrt.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_sqrt.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_tim.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_tim.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_uart.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_uart.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\drv_wwdg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\drv_wwdg.h</name>
+            <name>$PROJ_DIR$\..\drivers\dtype.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_adc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_adc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_aes.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_aes.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_bkp.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_bkp.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_can.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_can.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_adc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_comp.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_comp.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_comp.h</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\drivers\HAL_conf.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_crc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_crc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_crs.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_crs.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_dac.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_dac.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_dbg.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_dbg.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_crc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_div.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_div.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_div.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_dma.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_dma.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_dma.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_exti.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_exti.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_exti.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_flash.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_flash.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_flash.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_gpio.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_gpio.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_gpio.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_i2c.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_i2c.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_i2c.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_iwdg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_iwdg.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_iwdg.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_nvic.c</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_misc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_nvic.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_misc.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_opamp.c</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_op.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_opamp.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_op.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_pwr.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_pwr.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_pwr.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_rcc.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_rcc.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_rtc.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_rtc.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_rcc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_spi.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_spi.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_spi.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_sqrt.c</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_syscfg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_sqrt.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_syscfg.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_tim.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_tim.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_tim.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_uart.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_uart.h</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\HAL_uid.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_uid.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_uart.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\drivers\HAL_wwdg.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\drivers\inc\HAL_wwdg.h</name>
+            <name>$PROJ_DIR$\..\drivers\HAL_wwdg.h</name>
         </file>
     </group>
     <group>
@@ -2942,10 +2633,7 @@
     <group>
         <name>startup</name>
         <file>
-            <name>$PROJ_DIR$\..\startup\startup_mm32.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\startup\startup_mm32.h</name>
+            <name>$PROJ_DIR$\..\startup\startup_MM32SPIN2xx_p.s</name>
         </file>
     </group>
 </project>
