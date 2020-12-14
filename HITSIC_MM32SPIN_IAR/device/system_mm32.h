@@ -154,8 +154,8 @@ GLOBAL u16 g_KEY_buffer[8];
 
 #endif
 
-GLOBAL bool sysTickFlag;
-GLOBAL u32 sysTickCnt;
+//GLOBAL bool sysTickFlag;
+//GLOBAL u32 sysTickCnt;
 GLOBAL EM_MCUID MCUID;
 
 GLOBAL HANDLE hSysDisplay;
