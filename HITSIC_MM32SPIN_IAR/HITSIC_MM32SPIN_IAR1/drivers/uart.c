@@ -30,11 +30,9 @@ char UART_GetChar(UART_TypeDef* UARTx)
 {
   char ch;
   
-  if (UART_GetFlagStatus(UARTx, UART_FLAG_RXAVL) == SET)
-  {
-    UART_ClearFlag(UARTx, UART_FLAG_RXAVL);
-    ch = UART_ReceiveData(UARTx);
-  }
+  //while (UART_GetFlagStatus(UARTx, UART_FLAG_RXAVL) == RESET);
+  UART_ClearFlag(UART1, UART_FLAG_RXAVL);
+  ch = UART_ReceiveData(UARTx);
   return ch;
 }
 
